@@ -1,0 +1,28 @@
+{
+  "appId": "com.jvapi.app",
+  "appName": "JVaPi",
+  "webDir": "www",
+  "server": {
+    "url": "https://jvin.pages.dev",
+    "androidScheme": "https",
+    "allowNavigation": [
+      "jvin.pages.dev",
+      "*.jvin.pages.dev",
+      "api.nexadev.my.id",
+      "apii.nexadev.my.id",
+      "api.siputzx.my.id",
+      "api.qrserver.com",
+      "challenges.cloudflare.com",
+      "t.me",
+      "*.t.me",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "cdn.jsdelivr.net"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": true,
+    "backgroundColor": "#06111f"
+  }
+}
