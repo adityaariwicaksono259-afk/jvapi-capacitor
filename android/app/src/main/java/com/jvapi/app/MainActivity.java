@@ -17,6 +17,9 @@ public class MainActivity extends BridgeActivity {
         settings.setAllowFileAccess(true);
         settings.setAllowContentAccess(true);
         settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        settings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        settings.setLoadWithOverviewMode(true);
+        settings.setUseWideViewPort(true);
 
         this.getBridge().getWebView().setLayerType(View.LAYER_TYPE_HARDWARE, null);
         this.getBridge().getWebView().setBackgroundColor(0x00000000);
